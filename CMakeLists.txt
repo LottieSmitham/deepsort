@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.10 FATAL_ERROR)
+cmake_minimum_required(VERSION*3.10*FATAL_ERROR)
 project(tracking)
 
 # Build python package
@@ -37,3 +37,4 @@ if(BUILD_DEMO)
     message("-- Build demo")
     add_subdirectory(${PROJECT_SOURCE_DIR}/demo/c++)
 endif()
+ 
